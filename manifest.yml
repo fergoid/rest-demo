@@ -1,0 +1,7 @@
+---
+applications:
+- name: rest-demo
+  instances: 2
+  memory: 256M
+  host: rest-demo
+  path: target/rest-demo.jar
